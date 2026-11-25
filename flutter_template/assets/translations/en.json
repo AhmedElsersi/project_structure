@@ -1,0 +1,183 @@
+{
+  "app": {
+    "name": "AppName"
+  },
+  "common": {
+    "ok": "OK",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "close": "Close",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "retry": "Try again",
+    "search": "Search",
+    "loading": "Loading…",
+    "see_all": "See all",
+    "back": "Back",
+    "next": "Next",
+    "done": "Done",
+    "undo": "Undo",
+    "yes": "Yes",
+    "no": "No",
+    "discard": "Discard",
+    "keep_editing": "Keep editing",
+    "unsaved_changes_title": "Discard changes?",
+    "unsaved_changes_message": "You have unsaved changes. If you leave now they will be lost."
+  },
+  "errors": {
+    "network": "No internet connection. Check your connection and try again.",
+    "timeout": "The server took too long to respond. Please try again.",
+    "unauthorized": "Your session has ended. Please sign in again.",
+    "forbidden": "You don't have permission to do this.",
+    "not_found": "We couldn't find what you were looking for.",
+    "conflict": "This was changed by someone else. Refresh and try again.",
+    "validation": "Some fields need your attention.",
+    "rate_limited": "Too many attempts. Please wait a moment and try again.",
+    "upgrade_required": "A newer version of the app is required.",
+    "maintenance": "We're doing some maintenance. Please try again soon.",
+    "server": "Something went wrong on our side. Please try again.",
+    "storage": "We couldn't save data on this device.",
+    "permission": "Permission is needed to continue.",
+    "unknown": "Something went wrong. Please try again."
+  },
+  "states": {
+    "empty_title": "Nothing here yet",
+    "empty_message": "When there is something to show, it will appear here.",
+    "error_title": "Couldn't load this",
+    "offline": "You're offline. Some features may not work.",
+    "back_online": "You're back online.",
+    "end_of_list": "You've reached the end"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "theme": "Appearance",
+    "theme_system": "System",
+    "theme_light": "Light",
+    "theme_dark": "Dark",
+    "version": "Version {}"
+  },
+  "nav": {
+    "home": "Home",
+    "settings": "Settings"
+  },
+  "not_found": {
+    "title": "Page not found",
+    "message": "The link you opened doesn't exist or has moved.",
+    "go_home": "Go to home"
+  },
+  "config_error": {
+    "title": "App not configured",
+    "message": "This build is missing required settings. Contact the developer."
+  },
+  "app_gate": {
+    "maintenance_title": "We'll be right back",
+    "maintenance_message": "We're doing some scheduled maintenance. Please try again in a little while.",
+    "force_update_title": "Update required",
+    "force_update_message": "This version is no longer supported. Update the app to keep using it.",
+    "optional_update_title": "Update available",
+    "optional_update_message": "A new version of the app is ready, with improvements and fixes.",
+    "update_now": "Update now",
+    "later": "Later",
+    "store_unavailable": "We couldn't open the store. Please update the app from your app store."
+  },
+  "validation": {
+    "required": "This field is required.",
+    "email": "Enter a valid email address.",
+    "min_length": "Enter at least {min} characters.",
+    "max_length": "Enter no more than {max} characters.",
+    "phone": "Enter a valid phone number.",
+    "numeric": "Enter a valid number.",
+    "range": "Enter a value between {min} and {max}.",
+    "mismatch": "The values don't match.",
+    "password": "Use at least {min} characters, including a letter and a number.",
+    "url": "Enter a valid link that starts with http:// or https://.",
+    "iban": "Enter a valid IBAN."
+  },
+  "format": {
+    "just_now": "Just now",
+    "yesterday": "Yesterday",
+    "minutes_ago": {
+      "one": "{} minute ago",
+      "two": "{} minutes ago",
+      "few": "{} minutes ago",
+      "many": "{} minutes ago",
+      "other": "{} minutes ago"
+    },
+    "hours_ago": {
+      "one": "{} hour ago",
+      "two": "{} hours ago",
+      "few": "{} hours ago",
+      "many": "{} hours ago",
+      "other": "{} hours ago"
+    },
+    "days_ago": {
+      "one": "{} day ago",
+      "two": "{} days ago",
+      "few": "{} days ago",
+      "many": "{} days ago",
+      "other": "{} days ago"
+    },
+    "unit_byte": "B",
+    "unit_kb": "KB",
+    "unit_mb": "MB",
+    "unit_gb": "GB",
+    "unit_tb": "TB"
+  },
+  "permissions": {
+    "rationale_title": "Allow access to {permission}",
+    "continue": "Continue",
+    "not_now": "Not now",
+    "settings_title": "Turn on access in Settings",
+    "settings_message": "{permission} access is turned off for this app. You can turn it on in Settings.",
+    "open_settings": "Open Settings",
+    "camera": "Camera",
+    "photos": "Photos",
+    "location": "Location",
+    "notifications": "Notifications",
+    "microphone": "Microphone",
+    "camera_rationale": "Allow camera access so you can take photos in the app.",
+    "photos_rationale": "Allow photo access so you can choose pictures from your library.",
+    "location_rationale": "Allow location access so we can show you what's nearby.",
+    "notifications_rationale": "Allow notifications so you don't miss important updates.",
+    "microphone_rationale": "Allow microphone access so you can record audio."
+  },
+  "widgets": {
+    "show_password": "Show password",
+    "hide_password": "Hide password",
+    "clear_search": "Clear search",
+    "otp_label": "Verification code",
+    "pick_date": "Choose a date",
+    "image_unavailable": "Image unavailable",
+    "image_counter": "{current} of {total}",
+    "image_source_title": "Add a photo",
+    "camera": "Take a photo",
+    "gallery": "Choose from gallery",
+    "typed_confirm_hint": "Type “{}” to confirm"
+  },
+  "items": {
+    "title": "Items",
+    "search_hint": "Search items",
+    "add": "Add item",
+    "empty_title": "No items yet",
+    "empty_message": "Items you add will show up here.",
+    "no_results_title": "No matching items",
+    "no_results_message": "Try different words or clear the search.",
+    "details_title": "Item details",
+    "create_title": "New item",
+    "field_title": "Title",
+    "field_title_hint": "Give the item a short name",
+    "field_description": "Description",
+    "field_status": "Status",
+    "field_created": "Added on",
+    "no_description": "No description yet.",
+    "status_draft": "Draft",
+    "status_active": "Active",
+    "status_archived": "Archived",
+    "status_unknown": "Unknown",
+    "title_too_short": "Use at least {min} characters for the title.",
+    "created": "Item added.",
+    "image_of": "Image of {title}"
+  }
+}

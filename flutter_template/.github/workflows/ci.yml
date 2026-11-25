@@ -1,0 +1,50 @@
+# CI gate for apps created from flutter_template: format, analyze (zero infos),
+# translations in sync, tests green.
+#
+# Source: markspulse .github/workflows/ci.yml (pinned Flutter, analyze
+#         --fatal-infos --fatal-warnings, test); chinaparts-seller CI step
+#         `dart run tool/check_translations.dart`.
+name: CI
+
+on:
+  push:
+    branches: [main, dev]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  analyze-and-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          # Pinned: a floating stable can break `pub get` on an unchanged commit.
+          # Move together with the version in README / docs.
+          flutter-version: '3.44.0'
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+
+      - name: Format
+        run: dart format --output=none --set-exit-if-changed lib test tool
+
+      - name: Generated locale keys are up to date
+        run: |
+          ./tool/gen_locale_keys.sh
+          git diff --exit-code lib/core/localization/generated/
+
+      - name: Translations
+        run: dart run tool/check_translations.dart
+
+      - name: Analyze
+        run: flutter analyze --fatal-infos --fatal-warnings
+
+      - name: Test
+        run: flutter test

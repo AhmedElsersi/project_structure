@@ -1,0 +1,12 @@
+# project_structure — keep generated and machine files out of git.
+.DS_Store
+**/build/
+**/.dart_tool/
+**/ios/Pods/
+**/.symlinks/
+**/ephemeral/
+**/.flutter-plugins-dependencies
+# Secrets never belong here (see flutter_template/.gitignore for the full list).
+**/.env
+**/.env.*
+!**/.env.example

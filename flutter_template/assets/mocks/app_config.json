@@ -1,0 +1,18 @@
+{
+  "_comment": "Mock GET /app-config for USE_MOCKS builds: no maintenance, build 1 everywhere (no update prompts). Source: new (fixture for lib/core/app_config/app_config.dart; shape adapted from baytna config/appSettings). Set maintenance true or raise min_build / latest_build to try the gate.",
+  "maintenance": false,
+  "maintenance_message": {
+    "ar": "",
+    "en": ""
+  },
+  "android": {
+    "min_build": 1,
+    "latest_build": 1,
+    "store_url": ""
+  },
+  "ios": {
+    "min_build": 1,
+    "latest_build": 1,
+    "store_url": ""
+  }
+}

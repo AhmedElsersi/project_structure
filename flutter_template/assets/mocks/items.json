@@ -1,0 +1,325 @@
+{
+  "_comment": "Mock data for GET /items (lib/features/sample_feature/data/mock/items_mock_api.dart). Source: new (neutral sample data; images from picsum.photos placeholders). Item 7 has an unknown status and items 5 and 23 have no image, to exercise the fallbacks.",
+  "items": [
+    {
+      "id": "1",
+      "title": "Sample item 01",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/1/400/300",
+      "created_at": "2026-10-30T09:00:00Z"
+    },
+    {
+      "id": "2",
+      "title": "Sample item 02",
+      "description": "",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/2/400/300",
+      "created_at": "2026-10-29T22:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Sample item 03",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/3/400/300",
+      "created_at": "2026-10-29T11:00:00Z"
+    },
+    {
+      "id": "4",
+      "title": "Sample item 04",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/4/400/300",
+      "created_at": "2026-10-29T00:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Sample item 05",
+      "description": "A short description for this sample item.",
+      "status": "archived",
+      "image_url": null,
+      "created_at": "2026-10-28T13:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Sample item 06",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/6/400/300",
+      "created_at": "2026-10-28T02:00:00Z"
+    },
+    {
+      "id": "7",
+      "title": "Sample item 07",
+      "description": "",
+      "status": "pending_review",
+      "image_url": "https://picsum.photos/seed/7/400/300",
+      "created_at": "2026-10-27T15:00:00Z"
+    },
+    {
+      "id": "8",
+      "title": "Sample item 08",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/8/400/300",
+      "created_at": "2026-10-27T04:00:00Z"
+    },
+    {
+      "id": "9",
+      "title": "Sample item 09",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/9/400/300",
+      "created_at": "2026-10-26T17:00:00Z"
+    },
+    {
+      "id": "10",
+      "title": "Sample item 10",
+      "description": "A short description for this sample item.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/10/400/300",
+      "created_at": "2026-10-26T06:00:00Z"
+    },
+    {
+      "id": "11",
+      "title": "Sample item 11",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/11/400/300",
+      "created_at": "2026-10-25T19:00:00Z"
+    },
+    {
+      "id": "12",
+      "title": "Sample item 12",
+      "description": "",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/12/400/300",
+      "created_at": "2026-10-25T08:00:00Z"
+    },
+    {
+      "id": "13",
+      "title": "Sample item 13",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/13/400/300",
+      "created_at": "2026-10-24T21:00:00Z"
+    },
+    {
+      "id": "14",
+      "title": "Sample item 14",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/14/400/300",
+      "created_at": "2026-10-24T10:00:00Z"
+    },
+    {
+      "id": "15",
+      "title": "Sample item 15",
+      "description": "A short description for this sample item.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/15/400/300",
+      "created_at": "2026-10-23T23:00:00Z"
+    },
+    {
+      "id": "16",
+      "title": "Sample item 16",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/16/400/300",
+      "created_at": "2026-10-23T12:00:00Z"
+    },
+    {
+      "id": "17",
+      "title": "Sample item 17",
+      "description": "",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/17/400/300",
+      "created_at": "2026-10-23T01:00:00Z"
+    },
+    {
+      "id": "18",
+      "title": "Sample item 18",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/18/400/300",
+      "created_at": "2026-10-22T14:00:00Z"
+    },
+    {
+      "id": "19",
+      "title": "Sample item 19",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/19/400/300",
+      "created_at": "2026-10-22T03:00:00Z"
+    },
+    {
+      "id": "20",
+      "title": "Sample item 20",
+      "description": "A short description for this sample item.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/20/400/300",
+      "created_at": "2026-10-21T16:00:00Z"
+    },
+    {
+      "id": "21",
+      "title": "Sample item 21",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/21/400/300",
+      "created_at": "2026-10-21T05:00:00Z"
+    },
+    {
+      "id": "22",
+      "title": "Sample item 22",
+      "description": "",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/22/400/300",
+      "created_at": "2026-10-20T18:00:00Z"
+    },
+    {
+      "id": "23",
+      "title": "Sample item 23",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "archived",
+      "image_url": null,
+      "created_at": "2026-10-20T07:00:00Z"
+    },
+    {
+      "id": "24",
+      "title": "Sample item 24",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/24/400/300",
+      "created_at": "2026-10-19T20:00:00Z"
+    },
+    {
+      "id": "25",
+      "title": "Sample item 25",
+      "description": "A short description for this sample item.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/25/400/300",
+      "created_at": "2026-10-19T09:00:00Z"
+    },
+    {
+      "id": "26",
+      "title": "Sample item 26",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/26/400/300",
+      "created_at": "2026-10-18T22:00:00Z"
+    },
+    {
+      "id": "27",
+      "title": "Sample item 27",
+      "description": "",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/27/400/300",
+      "created_at": "2026-10-18T11:00:00Z"
+    },
+    {
+      "id": "28",
+      "title": "Sample item 28",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/28/400/300",
+      "created_at": "2026-10-18T00:00:00Z"
+    },
+    {
+      "id": "29",
+      "title": "Sample item 29",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/29/400/300",
+      "created_at": "2026-10-17T13:00:00Z"
+    },
+    {
+      "id": "30",
+      "title": "Sample item 30",
+      "description": "A short description for this sample item.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/30/400/300",
+      "created_at": "2026-10-17T02:00:00Z"
+    },
+    {
+      "id": "31",
+      "title": "Sample item 31",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/31/400/300",
+      "created_at": "2026-10-16T15:00:00Z"
+    },
+    {
+      "id": "32",
+      "title": "Sample item 32",
+      "description": "",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/32/400/300",
+      "created_at": "2026-10-16T04:00:00Z"
+    },
+    {
+      "id": "33",
+      "title": "Sample item 33",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/33/400/300",
+      "created_at": "2026-10-15T17:00:00Z"
+    },
+    {
+      "id": "34",
+      "title": "Sample item 34",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/34/400/300",
+      "created_at": "2026-10-15T06:00:00Z"
+    },
+    {
+      "id": "35",
+      "title": "Sample item 35",
+      "description": "A short description for this sample item.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/35/400/300",
+      "created_at": "2026-10-14T19:00:00Z"
+    },
+    {
+      "id": "36",
+      "title": "Sample item 36",
+      "description": "Placeholder text that shows how a longer description wraps onto a second line and is then cut with an ellipsis in list tiles and grid cards.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/36/400/300",
+      "created_at": "2026-10-14T08:00:00Z"
+    },
+    {
+      "id": "37",
+      "title": "Sample item 37",
+      "description": "",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/37/400/300",
+      "created_at": "2026-10-13T21:00:00Z"
+    },
+    {
+      "id": "38",
+      "title": "Sample item 38",
+      "description": "Generic sample content used by the mock backend.",
+      "status": "archived",
+      "image_url": "https://picsum.photos/seed/38/400/300",
+      "created_at": "2026-10-13T10:00:00Z"
+    },
+    {
+      "id": "39",
+      "title": "Sample item 39",
+      "description": "Another neutral description, long enough to fill one line on a phone.",
+      "status": "active",
+      "image_url": "https://picsum.photos/seed/39/400/300",
+      "created_at": "2026-10-12T23:00:00Z"
+    },
+    {
+      "id": "40",
+      "title": "Sample item 40",
+      "description": "A short description for this sample item.",
+      "status": "draft",
+      "image_url": "https://picsum.photos/seed/40/400/300",
+      "created_at": "2026-10-12T12:00:00Z"
+    }
+  ]
+}
